@@ -1,0 +1,96 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+:root {
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Bright-blue: hsl(245, 75%, 52%);
+  --Dark-blue: hsl(223, 47%, 23%);
+}
+* {
+  font-family: "Red Hat Display", sans-serif;
+}
+body {
+  background-image: url(images/pattern-background-desktop.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.imgHeader {
+  width: 400px;
+  height: 200px;
+  background-image: url(images/illustration-hero.svg);
+  background-repeat: no-repeat;
+  border-radius: 15px 15px 0 0;
+  background-size: cover;
+}
+.container h1 {
+  color: var(--Dark-blue);
+}
+.container p {
+  color: var(--Desaturated-blue);
+  width: 80%;
+  font-size: 1em;
+  text-align: center;
+}
+
+.container {
+  width: 25em;
+  height: 40em;
+  margin: 5em auto;
+  background-color: white;
+  border-radius: 15px;
+}
+.container * {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 1em auto;
+}
+.AnnualPlan {
+  width: 80%;
+  height: 80px;
+  background-color: var(--Very-pale-blue);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+.AnnualPlan img {
+  margin: 0;
+
+}
+.preco {
+  margin: 0;
+  padding: 0;
+  padding: 0;
+  
+  justify-content: center;
+
+  height: 80px;
+}
+.preco p {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+.preco h2 {
+  color: var(--Dark-blue);
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+}
+button {
+  border-radius: 15px;
+  background-color: var(--Bright-blue);
+  width: 80%;
+  height: 40px;
+  color: white;
+  justify-content: center;
+  border: none;
+}
